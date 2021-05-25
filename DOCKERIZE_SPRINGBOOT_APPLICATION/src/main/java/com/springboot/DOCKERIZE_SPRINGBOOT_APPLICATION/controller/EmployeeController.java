@@ -33,5 +33,12 @@ public class EmployeeController {
         return new ResponseEntity<String>("Successfull", HttpStatus.OK);
 
     }
+    
+    @GetMapping(value = "/ping")
+    public String ping() {
+
+        return "Ping Service";
+
+    }
 
 }
