@@ -37,7 +37,7 @@ public class EmployeeController {
     @GetMapping(value = "/ping")
     public String ping() {
 
-        return "Ping Service";
+        return "Ping Service Version: 1";
 
     }
 
